@@ -1,0 +1,6 @@
+
+r	java:S106"+Replace this use of System.out by a logger.(áêıíÿÿÿÿÿ8 ¤ÑÁü1J$9d3ce4e6-0669-4ca3-8a0c-9f58450c1e28
+m	java:S106"+Replace this use of System.out by a logger.(Ÿ—ÿÚ8äšÔÁü1J$5dafc3ff-c209-4784-b6ce-1b88010d55c2
+m	java:S106"+Replace this use of System.out by a logger.(ˆÆñ“8®İÔÁü1J$7982e7ae-c7f9-4cbb-9faf-ddc644bdcb05
+V
+java:S2121"9Remove this "compareTo" call; it has predictable results.(ˆÆñ“8‘ÔÕÁü1

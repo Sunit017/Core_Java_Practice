@@ -115,3 +115,15 @@ F
 com/mav/Singleton.java,0\4\04d0a83e1e9c38332af9fec9480aebb4943375e0
 X
 (com/mav/collection/ArrayListExample.java,a\3\a339a5d17793944fb5ea947584909941283aaff4
+W
+'com/mav/collection/LinkListExample.java,0\3\03e11709ade1050dd679c1feec30116bad966a65
+U
+%com/mav/collection/VectorExample.java,5\e\5e67d9e637f063d39c06314ce01e93a1b816c0f1
+V
+&com/mav/collection/HashSetExample.java,6\b\6b029ab711f4da685f1e763a497672afa3748396
+\
+,com/mav/collection/LinkedHashSetExample.java,3\9\39a49395ec7e77164f5034167cf55e043285b75c
+V
+&com/mav/collection/TreeSetExample.java,0\0\00f1b29277481f00ec1a057bac5ff8f08ffbd1f4
+Y
+)com/mav/collection/ComparableExample.java,3\4\34641cb32d23285e5dd52d10236b40386208018e
