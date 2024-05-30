@@ -1,0 +1,7 @@
+
+	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÀóÛï8×»¦Ôî1J$40c08271-fb7b-43dc-874d-264d35e7f72a
+	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ä£ë‡8×»¦Ôî1J$44e86bed-fa09-44a1-a772-f9026374b53f
+m	java:S106"+Replace this use of System.out by a logger.(á‡¹ô8Ü»¦Ôî1J$34129908-b967-46e6-9683-88d30cefce4c
+r	java:S106"+Replace this use of System.out by a logger.(ú×£šşÿÿÿÿ8Ü»¦Ôî1J$73fcaee5-675c-4354-8b49-3dac6fbad88b
+r
+java:S1197"*Move the array designators [] to the type.(Ü‚Á‹ûÿÿÿÿ8Ü»¦Ôî1J$6d8321d6-11da-432a-879c-f3b126217f05

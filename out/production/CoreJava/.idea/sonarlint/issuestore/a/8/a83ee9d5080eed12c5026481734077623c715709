@@ -1,0 +1,9 @@
+
+
+java:S3518	"7Make sure "j" can't be zero before doing this division.(ûÄ˜õúÿÿÿÿ8°×ü¯ï1J$cc6ac32b-24f8-40e4-9dbb-62473fee4374
+}
+java:S1854	"5Remove this useless assignment to local variable "i".(ûÄ˜õúÿÿÿÿ8°×ü¯ï1J$437e2163-69c6-48e2-883f-d9a5569491b6
+r
+java:S1197"*Move the array designators [] to the type.(Ü‚Á‹ûÿÿÿÿ8°×ü¯ï1J$71850640-e6f9-4afe-8a02-7808e290788a
+r	java:S106"+Replace this use of System.out by a logger.(Ş¿ùûÿÿÿÿ8À×ü¯ï1J$2cfc3e43-fa74-4b40-8465-ee38adb96166
+r	java:S106"+Replace this use of System.out by a logger.(ûú·Éüÿÿÿÿ8ÚÅı¯ï1J$9ca0597c-f9e5-4c8a-97bb-2d53e88a79f7

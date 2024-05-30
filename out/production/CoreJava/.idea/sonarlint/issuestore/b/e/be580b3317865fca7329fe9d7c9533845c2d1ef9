@@ -1,0 +1,10 @@
+
+]
+java:S1220""Move this file to a named package.8á–®î1J$b08c572d-f8d7-43c1-bc41-0c9ba3ae2ad1
+r	java:S106"+Replace this use of System.out by a logger.(Ãœ¾ùÿÿÿÿ8ë–®î1J$4ea72799-c559-40cf-a7bf-c41831879680
+}
+java:S1161":Add the "@Override" annotation above this method signature(ı¹¤©8î–®î1J$ffc97dfe-63a3-45a9-bb69-bb05b594412a
+r	java:S106"+Replace this use of System.out by a logger.(§ƒ¯Ùüÿÿÿÿ8ï–®î1J$530338fb-cb2d-47e8-868a-c5c793799c32
+m	java:S106"+Replace this use of System.out by a logger.(Î¦ï¾8Áÿ®î1J$331f1609-d5f6-49f0-94d2-b5b81ffc8571
+r
+java:S1197"*Move the array designators [] to the type.(Ü‚Á‹ûÿÿÿÿ8ó–®î1J$3badb255-8a29-48d2-9757-0a7856605ced

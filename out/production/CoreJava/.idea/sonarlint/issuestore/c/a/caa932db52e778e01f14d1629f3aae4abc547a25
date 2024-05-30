@@ -1,0 +1,15 @@
+
+]
+java:S1220""Move this file to a named package.8Í—’‚î1J$9d8509e1-9de5-42a4-a290-465d4ef22858
+r	java:S106"+Replace this use of System.out by a logger.(åıÍŒüÿÿÿÿ8Ù—’‚î1J$9094de14-97b3-4e97-8986-411af40bb593
+p
+java:S1172"(Remove this unused method parameter "b".(üªÆóÿÿÿÿÿ8ˆ€—‚î1J$f0ceeb5c-0b79-4782-966c-af581c9d4092
+l	java:S106"+Replace this use of System.out by a logger.(œ§Š48Û—’‚î1J$e0831d02-d7ed-40dc-846e-e0f42262b46d
+r	java:S106"+Replace this use of System.out by a logger.(ÓÀ¤øÿÿÿÿ8Ü—’‚î1J$a43f3ed3-4b0b-4e4b-ae10-c10ad3ddbd9d
+m	java:S106"+Replace this use of System.out by a logger.(í¼€Ç8ı“‚î1J$2050e73a-1744-41d9-a817-655fb793c363
+
+java:S1854"7Remove this useless assignment to local variable "obj".(à®úÿÿÿÿ8ß—’‚î1J$74d95e04-4f24-4814-b48c-90518db76444
+r
+java:S1197"*Move the array designators [] to the type.(Ü‚Á‹ûÿÿÿÿ8à—’‚î1J$daa1b997-000c-431d-9991-39778dff70c2
+p
+java:S1481"(Remove this unused "obj" local variable.(à®úÿÿÿÿ8ã—’‚î1J$9113a336-a48f-46b6-9367-33dae17b44c8

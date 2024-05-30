@@ -1,0 +1,16 @@
+
+	java:S112
+"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8Ù½’£ğ1J$ee16eaa1-ca29-4953-a776-9b98f0e4b6f0
+	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8èÏ—£ğ1J$5da12688-102f-4191-b768-58df6b0db804
+}
+java:S1161":Add the "@Override" annotation above this method signature(“–ış8®§£ğ1J$ab969029-88c3-4605-9b52-627df295fdd1
+m	java:S106"+Replace this use of System.out by a logger.(ùõá€8±§£ğ1J$0080bbff-7fc4-4959-9881-3d768c56ad47
+¡
+java:S2142	"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€8ù½’£ğ1J$34f2b902-e32c-44d8-a17c-74f67b41c316
+‚
+java:S1161":Add the "@Override" annotation above this method signature(ÿŸ¾Ğüÿÿÿÿ8´§£ğ1J$e320963e-fb7d-4a17-8b48-a0f62461e5f6
+r	java:S106"+Replace this use of System.out by a logger.(Ù¿éûÿÿÿÿ8µ§£ğ1J$734978de-d0ec-41af-ad9f-d0640f8b1040
+¡
+java:S2142"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€8øÏ—£ğ1J$f29a0f9a-1691-4e3f-a36a-a7db40e2285a
+r
+java:S1197 "*Move the array designators [] to the type.(Ü‚Á‹ûÿÿÿÿ8¸§£ğ1J$c06ee9e1-cbd7-4f4a-8531-7677c4ff575d

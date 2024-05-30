@@ -1,0 +1,10 @@
+
+x
+java:S1854"5Remove this useless assignment to local variable "j".(Û”¼µ8í€ˆï1J$a5cb3984-6dbe-4558-8fbe-65668a73178f
+r
+java:S1197"*Move the array designators [] to the type.(Ü‚Á‹ûÿÿÿÿ8‚Ÿ€ˆï1J$3f676065-d65c-4b38-8e3b-691906cacfed
+m
+java:S1197	"*Move the array designators [] to the type.(îêÔô8ƒŸ€ˆï1J$62eeee4b-a982-4e6e-906a-748af9e20945
+m	java:S106"+Replace this use of System.out by a logger.(˜êÒ·8†Ÿ€ˆï1J$5c701fc3-05f6-4941-9978-8156e29a847b
+r	java:S106"+Replace this use of System.out by a logger.(ß×È€şÿÿÿÿ8‡Ÿ€ˆï1J$a3c153b5-daa2-4cb4-9127-291c32c5cbc5
+m	java:S106"+Replace this use of System.out by a logger.(¿ÅÙ•8Û¸ˆï1J$b9ee0948-6d81-4c8f-b37f-6afbb6c739da

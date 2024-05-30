@@ -1,0 +1,8 @@
+
+
+java:S3973*"GUse indentation to denote the code conditionally executed by this "if".(Òåœªûÿÿÿÿ8‚³®Êò1J$56d3926f-09cb-4bff-a6ab-69d8f06be7d3
+‹
+java:S39738"HUse indentation to denote the code conditionally executed by this "for".(àÊµ™8‚³®Êò1J$3c059561-ea2c-4566-a41a-96a78358d52f
+¡
+java:S1210)"YOverride "equals(Object obj)" to comply with the contract of the "compareTo(T o)" method.(şÛªãûÿÿÿÿ8‹³®Êò1J$c5d43895-d54a-4747-b8d1-accbf1788578
+m	java:S1069"+Replace this use of System.out by a logger.(Î’ÛÚ8—³®Êò1J$17c26c64-b206-44db-a1e9-eb7c30960877

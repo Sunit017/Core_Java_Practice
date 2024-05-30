@@ -1,0 +1,11 @@
+
+œ
+java:S2293
+"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ç‰ş8ÄéëËğ1J$a5800f00-9bd9-4882-9bda-50a58ca55e0c
+
+java:S3973"HUse indentation to denote the code conditionally executed by this "for".(—Ëåçüÿÿÿÿ8ÄéëËğ1J$a7db5b37-0912-4024-9da1-e1925ab55d5b
+r
+java:S1197"*Move the array designators [] to the type.(Ü‚Á‹ûÿÿÿÿ8ÕéëËğ1J$11984e40-3213-40db-b26d-1280f919516b
+r	java:S106"+Replace this use of System.out by a logger.(´‹¹öşÿÿÿÿ8çéëËğ1J$58c30501-5b85-4ac9-9c74-65f1fdaa7064
+t
+java:S1128"1Remove this unused import 'java.util.Comparator'.(î¹ó¹8çéëËğ1J$1da4e0ed-9e6d-4cb9-a2dc-5a9685a10c33

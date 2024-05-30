@@ -1,0 +1,10 @@
+
+]
+java:S1220""Move this file to a named package.8ë—ôûğ1J$90b46b95-da84-4882-93f8-961ddfaa2ba1
+r
+java:S1197"*Move the array designators [] to the type.(Ü‚Á‹ûÿÿÿÿ8û—ôûğ1J$d784552f-bc95-4e49-87d9-4934a8be35d8
+r	java:S106"+Replace this use of System.out by a logger.(ÍúÀªÿÿÿÿÿ8û—ôûğ1J$74fa787d-df6a-463f-af5a-fa39cf010c0b
+r	java:S106"+Replace this use of System.out by a logger.(´‹¹öşÿÿÿÿ8û—ôûğ1J$e2e79232-2f97-4a51-b05f-2f3687022141
+•
+java:S6204"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(“Î’–8û—ôûğ1J$148a3ec8-3be8-4d2f-bed4-dfd63cac606a
+r	java:S106"+Replace this use of System.out by a logger.(ãŒ¦ıÿÿÿÿ8Äùõûğ1J$4824584e-b99b-4ddb-8e21-a4d15b5a5481
