@@ -35,16 +35,16 @@ list iterator - bi directional / object creation = public ListIterator listItera
 Set -----
 --------------------------
 doesn't contain any method it extends all the collection interface method
-HashSet ---
 
-Uderlying DS is Hashtable
+HashSet====
+----------------------------------------------
+. Uderlying DS is Hashtable
 . if frequent opration is search operation then go for it
-. 
+. Insertion is not preserve
 
-Linked HashSet:-
-
+ Linked HashSet:-=======================
 Uderlying DS Hashtable+linkedlist
-. duplicate not allow and insertion order is preserve 
+.duplicate not allow and insertion order is preserve 
 
 
 SortedSet -:
@@ -89,3 +89,68 @@ Interface and Abstract class
 6. we can't have static block here / here we have 
 
 
+Map===========
+-----------------------
+
+Represent group of individual object in key value pair , both key and value both are object , key can't be duplicate , value can be duplicate 
+Each key value pair called - Entry --- Hence map is considered as a collection of entry objecs 
+Map Interface methods - object  put(object key , object value )
+---- to add 1 key value pair to map , if the key is already present then old value will be repalced with new value and returns old value 
+eg . map.put(101,"Sunit");
+     map.put(102,"Kumar");
+	 map.put(101,"Pattnaik")
+	 then sunit will be replaced by pattnaik 
+	 
+-------------------------------------------------------------------
+set keyset()
+collection values()
+set entryset()
+these 3 method consider as collection view map 
+-------------------------------------------------------------------------
+Entry (I)
+============
+without existing map object , there is no chance of existing entry object , hence entry (I) is defined inside map interface 
+
+object getkey();
+object getvalue();
+object setvalue(object o)
+these 3 methods are entry specific method , we can apply on entry object 
+
+HashMap
+================
+
+-- Underlying DS is HashTable , Insertion order is not preserved and it is bases on  hashcode of keys , Duplicate keys are not allowed , value can be duplicated 
+-- Heterogenous object are allowed for both key and value , null allowed for key (once ) null allowed for value (any)
+-- hashmap implements seralizable and cloneable inteface , but not random access 
+-- hashmap is best choice if operation is search operation 
+
+HashMap m = new HashMap() // creates an empty hashmap object with default intial capacity 16 and fill ratio is 0.75
+HashMap m =new HashMap(int intialcapacity) - creates an empty hashmap object with specified intial capacity and default fill ratio 0.75
+Hahmap m =new HashMap(int intialcapcity,float fill ratio)
+HashMap m =new hashmap(Map m)
+
+
+Differnce Between HashMap and HashTable ====
+=========================================================================
+
+1--HashMap method are not syncronized and Hastable is Syncronized 
+2--Hashmap is multi threaded  so no thread safe / Hashtable is Single Thread and Thread safe 
+3--HashMap is performance wise fast / Hastable performance wise slow
+4-- Null value are allow / null are not allow
+5-- HashMap came in 1.2 v / Hastable came on 1.0 v so it is legacy 
+
+Linked HashMap============
+===================================================================
+1-uderlying Ds linkedlist+Hastable  / Child class of HashMap
+2- insertion order is preserve
+3- introduce in 1.4 v 
+
+
+
+sorted map---
+--------------
+if we want to represent group of key and value pair according to some sorting order of keys then we should go for sorted map 
+
+Navigable MaP
+------------------
+child interface of sorted map , define some util method for navigation 

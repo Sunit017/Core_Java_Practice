@@ -1,0 +1,18 @@
+
+r
+java:S3740"/Provide the parametrized type for this generic.(óÚĞÙ8ç¶›ïı1J$797c1a4c-d0e0-447f-aee1-01ad3ed12387
+¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(äÜúÜıÿÿÿÿ8ê¶›ïı1J$a1a2e775-6a35-49aa-a1b8-990bea3db53a
+x
+java:S1854"5Remove this useless assignment to local variable "t".(©¯ıƒ8øÌœïı1J$7241d7c3-1291-4cf7-944c-95af61192224
+m	java:S106
+"+Replace this use of System.out by a logger.(ü×ââ8â›ïı1J$50d7d5bf-016b-494a-b8d0-71d09b350a06
+—
+java:S1215"TDon't try to be smarter than the JVM, remove this call to run the garbage collector.(Ì°¬“8üïı1J$819c54ec-862a-4fd0-a37a-f450bfce0618
+m	java:S106"+Replace this use of System.out by a logger.(ü×ââ8øÈïı1J$6f98d5ef-e031-499e-88e3-b3d13f5508e7
+’
+java:S1874"JDon't override a deprecated method or explicitly mark it as "@Deprecated".(†Ôş–ûÿÿÿÿ8ù¶›ïı1J$1de1e6c2-978d-4a87-aaec-3240637284df
+u
+java:S1113"-Do not override the Object.finalize() method.(†Ôş–ûÿÿÿÿ8û¶›ïı1J$701b8aff-366c-4861-aa03-5de2f648aa98
+n
+java:S1174"&Make this finalize() method protected.(†Ôş–ûÿÿÿÿ8ü¶›ïı1J$3566de74-b7ad-4b03-9a26-420feba386b5
+L	java:S106"+Replace this use of System.out by a logger.(Ú‡­ıÿÿÿÿ8û“ ïı1
