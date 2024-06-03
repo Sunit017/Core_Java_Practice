@@ -42,18 +42,19 @@ HashSet====
 . if frequent opration is search operation then go for it
 . Insertion is not preserve
 
- Linked HashSet:-=======================
+ Linked HashSet:-
+ ===============================
 Uderlying DS Hashtable+linkedlist
 .duplicate not allow and insertion order is preserve 
 
 
 SortedSet -:
-
+=======================
 represet group of individual object where don't want duplicate data and some sorting order must be there 
 
 
 TreeSet :-
-
+=========================
 Balanced Tree  underlying DS
 duplicate not allow , insertion order not preserve 
 Heterogenious object not allow (Tree set and Tree Map)
@@ -146,6 +147,20 @@ Linked HashMap============
 3- introduce in 1.4 v 
 
 
+== & .equal()--
+================================
+1- == meant for refernce and address comparison / equal () content comparison 
+
+IdentityHashMap===============
+=====================================================================
+Hashmap use .equal() to identityfy duplicate key 
+- but identityhashmap jvm will use == operator to identityfy duplicate key 
+
+WeakHashMap--------
+===============================
+- It is exactly same as hashmap except the following differnce 
+-- In the case of hashmap even though object doesn't have any refernce it is not eligble for GC , if it is associated with HashMap i.e HashMap dominates GC 
+-- But in the case of WeakHashMap if object doesnt contain any refernces it is eligble for GC even though object associated with weak hashmap , i.e gc dominates WeakHashMap
 
 sorted map---
 --------------
