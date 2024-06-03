@@ -127,3 +127,7 @@ V
 &com/mav/collection/TreeSetExample.java,0\0\00f1b29277481f00ec1a057bac5ff8f08ffbd1f4
 Y
 )com/mav/collection/ComparableExample.java,3\4\34641cb32d23285e5dd52d10236b40386208018e
+Y
+)com/mav/collection/ComparatorExample.java,6\7\67f7f82c979cc384d274f6106fc5513f17fa89bd
+K
+com/mav/Map/MapExample.java,0\9\09dd4e3a3c8b4c508748f922957f5aaebaa9018c

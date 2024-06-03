@@ -1,0 +1,91 @@
+
+
+singleton = static instance of class 
+don't allow user to create default constructor 
+create a static method 
+
+
+
+
+Hibernate = this is an orm tool / JPA - this a specification (set of rule )
+
+to perform any operation with database from java application we can do it by hibernate but for this we need 
+
+Session -> session factory ()-> configuration (data source config ) u have to do it in config.xml
+
+save , get 
+
+in every save,update and delete  method we have to do session.beginTranscation(), session.getTranscation.commit()
+
+
+
+
+
+
+Cursor-----
+
+we need to retrive the object one by one 
+
+3 types
+
+Enumration - to get object from old collection object , Enumration e=v.elements(); /// Only read access
+iterator - read and remove data // read and remove 
+list iterator - bi directional / object creation = public ListIterator listIterator() //read , remove,replace , addition of new object 
+
+Set -----
+--------------------------
+doesn't contain any method it extends all the collection interface method
+HashSet ---
+
+Uderlying DS is Hashtable
+. if frequent opration is search operation then go for it
+. 
+
+Linked HashSet:-
+
+Uderlying DS Hashtable+linkedlist
+. duplicate not allow and insertion order is preserve 
+
+
+SortedSet -:
+
+represet group of individual object where don't want duplicate data and some sorting order must be there 
+
+
+TreeSet :-
+
+Balanced Tree  underlying DS
+duplicate not allow , insertion order not preserve 
+Heterogenious object not allow (Tree set and Tree Map)
+Null Acceptance allow but only once / for empty treeset first element null insertion is possible . after inserting that , if try to insert other element will get null pointer exception 
+
+TreeSet t= new TreeSet() = DNSO
+TreeSet t =new TreeSet(Comparator c) ; cutomized sorting order 
+
+
+comparable ----
+------------
+
+present on java.lang package / one method compareto
+obj1.compareto(obj2); obj1- element we are trying to insert and obj2 is the element is already inserted 
+obj1>obj2 = +ve
+obj1<obj2 =-ve
+obj1==obj2 = 0
+
+Comparator --
+-------------
+
+present on java.util package 
+customize sorting order /contains 2 method compare and equal , when we are implementing comparator interface must be override compare method , equal method is optional 
+
+
+Interface and Abstract class
+
+1. When we don't know about full implmeatation we go for interface / when we know partial implementation go for abstract 
+2. interface is fully abstract class because only abstract method allow / we can write both concert and abstract method 
+3. all the methods are public and abstract / abstract class here is no specificatio 
+4. in interface variable can be final public static / abstract class does n't have this type of specification
+5. when we are declare a variable should intialize same time / abstract class this type specification not there 
+6. we can't have static block here / here we have 
+
+
