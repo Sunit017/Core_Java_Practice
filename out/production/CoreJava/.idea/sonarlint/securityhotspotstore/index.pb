@@ -131,3 +131,9 @@ Y
 )com/mav/collection/ComparatorExample.java,6\7\67f7f82c979cc384d274f6106fc5513f17fa89bd
 K
 com/mav/Map/MapExample.java,0\9\09dd4e3a3c8b4c508748f922957f5aaebaa9018c
+R
+"com/mav/Map/IdentityHashMapEx.java,7\5\757b4b5e68a8ede7ab2fb0bcbce6e82101d040f3
+S
+#com/mav/Map/WeakHashMapExample.java,2\b\2bbf7503f116d7ef2c2303bab2fc2f4a1ce98cb1
+L
+com/mav/Map/TreeMapDemo.java,d\7\d740548a099cd7ba0c273b201c752104e2870be6

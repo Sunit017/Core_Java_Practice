@@ -42,18 +42,19 @@ HashSet====
 . if frequent opration is search operation then go for it
 . Insertion is not preserve
 
- Linked HashSet:-=======================
+ Linked HashSet:-
+ ===============================
 Uderlying DS Hashtable+linkedlist
 .duplicate not allow and insertion order is preserve 
 
 
 SortedSet -:
-
+=======================
 represet group of individual object where don't want duplicate data and some sorting order must be there 
 
 
 TreeSet :-
-
+=========================
 Balanced Tree  underlying DS
 duplicate not allow , insertion order not preserve 
 Heterogenious object not allow (Tree set and Tree Map)
@@ -146,10 +147,49 @@ Linked HashMap============
 3- introduce in 1.4 v 
 
 
+== & .equal()--
+================================
+1- == meant for refernce and address comparison / equal () content comparison 
+
+IdentityHashMap===============
+=====================================================================
+Hashmap use .equal() to identityfy duplicate key 
+- but identityhashmap jvm will use == operator to identityfy duplicate key 
+
+WeakHashMap--------
+===============================
+- It is exactly same as hashmap except the following differnce 
+-- In the case of hashmap even though object doesn't have any refernce it is not eligble for GC , if it is associated with HashMap i.e HashMap dominates GC 
+-- But in the case of WeakHashMap if object doesnt contain any refernces it is eligble for GC even though object associated with weak hashmap , i.e gc dominates WeakHashMap
 
 sorted map---
 --------------
-if we want to represent group of key and value pair according to some sorting order of keys then we should go for sorted map 
+-if we want to represent group of key and value pair according to some sorting order of keys then we should go for sorted map ,sorting is based on key not value 
+- Sorted Map defines the following specific methods 
+
+Object firstKey();
+Object lastKey();
+SortedMap headMap(Object key)
+SortedMap tailMap(Object key)
+SortedMap subMap(Object key1,Object key2)
+Comparator comparator()
+
+
+TreeMap----
+===================================================
+
+-Uderlying Ds is Red Black Tree 
+-Insertion is not preserved and it is based on some sorting order of keys 
+-Duplicate keys are not allowed but values can be duplicated 
+-if we are depending on default natural sorting order then keys should be homogenous and comparable otherwise we will get run time exception saying class cast exception
+- if we are defining our own sorting by comparator then keys need not be homogenous and comparable , we can take heterogenous and non comparable object also 
+
+Null Acceptance==
+------------
+For non empty treemap if we are trying to insert an entry with null key then we will get run time exception saying null pointer exception
+for empty treemap as the first entry with null key is allowed , but after inserting that entry if we are trying to insert any other entry then we will get run time exception saying
+null pointer exception
+Note=== the above null acceptance rule applicable util 1.6 V only , from 1.7V onwards null is not allowed for key 
 
 Navigable MaP
 ------------------

@@ -1,0 +1,11 @@
+
+w
+java:S3740"/Provide the parametrized type for this generic.(ôÛ¦…ûÿÿÿÿ8›…Í½þ1J$e514903e-b39c-480a-b7cf-255ccf7eae44
+w
+java:S3740"/Provide the parametrized type for this generic.(ôÛ¦…ûÿÿÿÿ8¬…Í½þ1J$bd68321b-37b5-4a33-88a6-31270eefde08
+¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(äÜúÜýÿÿÿÿ8±…Í½þ1J$d18108e4-da70-42ac-90bd-e95c62420f90
+ž
+java:S1149"VReplace the synchronized class "Hashtable" by an unsynchronized one such as "HashMap".(ôÛ¦…ûÿÿÿÿ8Ú…Í½þ1J$10cfa81e-ab04-4946-9784-79c1699bc034
+r	java:S106"+Replace this use of System.out by a logger.(‹¢½’ûÿÿÿÿ8ùºÍ½þ1J$a9cf893a-a879-4fae-b2e4-2bf5e1ff78e4
+˜
+java:S1206"PThis class overrides "hashCode()" and should therefore also override "equals()".(êì²³ÿÿÿÿÿ8Ú…Í½þ1J$ccf1e56a-88e3-4cf4-a989-5e4ff5b3f14a
