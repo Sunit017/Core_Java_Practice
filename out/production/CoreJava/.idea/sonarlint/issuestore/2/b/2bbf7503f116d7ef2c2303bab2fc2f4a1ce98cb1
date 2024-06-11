@@ -1,18 +1,18 @@
 
 r
-java:S3740"/Provide the parametrized type for this generic.(óÚĞÙ8ç¶›ïı1J$17e78c24-6d16-45fb-b2f6-0647123fe77b
-¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(äÜúÜıÿÿÿÿ8ê¶›ïı1J$31811282-7024-4184-a290-854ae8b13296
+java:S3740"/Provide the parametrized type for this generic.(óÚĞÙ8ç¶›ïı1J$937991f1-949f-4e5e-ae4a-3ccb2326edf6
+¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(äÜúÜıÿÿÿÿ8ê¶›ïı1J$1a95f7c3-9c77-416b-8d48-69f9a705b53d
 x
-java:S1854"5Remove this useless assignment to local variable "t".(©¯ıƒ8øÌœïı1J$862d78e3-f59b-4467-8830-32c8b0bef653
+java:S1854"5Remove this useless assignment to local variable "t".(©¯ıƒ8øÌœïı1J$a327d934-9612-43b8-bca9-472d83ab3715
 m	java:S106
-"+Replace this use of System.out by a logger.(ü×ââ8â›ïı1J$788fc470-7ede-493e-9ea5-57d2cc20e9fc
+"+Replace this use of System.out by a logger.(ü×ââ8â›ïı1J$854b74ec-cc33-4b6c-ad0c-b20b66e88e95
 —
-java:S1215"TDon't try to be smarter than the JVM, remove this call to run the garbage collector.(Ì°¬“8üïı1J$972a381b-11a7-4e8a-9f1f-b32f096b0a18
-m	java:S106"+Replace this use of System.out by a logger.(ü×ââ8øÈïı1J$808edd67-cfd9-4799-b5ad-e5d1a146f33a
+java:S1215"TDon't try to be smarter than the JVM, remove this call to run the garbage collector.(Ì°¬“8üïı1J$274f748c-0229-41c1-9c9b-03343d2bbcb1
+m	java:S106"+Replace this use of System.out by a logger.(ü×ââ8øÈïı1J$65bd85d3-5aa6-4bb7-a897-688a8f3cdff7
 ’
-java:S1874"JDon't override a deprecated method or explicitly mark it as "@Deprecated".(†Ôş–ûÿÿÿÿ8ù¶›ïı1J$c2843e80-4588-4ce2-9791-7bc2e3f699db
+java:S1874"JDon't override a deprecated method or explicitly mark it as "@Deprecated".(†Ôş–ûÿÿÿÿ8ù¶›ïı1J$f08cd51d-dc19-49c1-85e5-b112355456bc
 u
-java:S1113"-Do not override the Object.finalize() method.(†Ôş–ûÿÿÿÿ8û¶›ïı1J$aee78d1d-dfcb-4712-8077-9d2dd47edb06
+java:S1113"-Do not override the Object.finalize() method.(†Ôş–ûÿÿÿÿ8û¶›ïı1J$4ff6ec88-6d82-4bdc-a2de-a9b987093a1a
 n
-java:S1174"&Make this finalize() method protected.(†Ôş–ûÿÿÿÿ8ü¶›ïı1J$e5f49457-773d-43e3-8163-e9a67a52f609
-r	java:S106"+Replace this use of System.out by a logger.(Ú‡­ıÿÿÿÿ8û“ ïı1J$90ded9b5-c2c2-4637-9e5c-08861f3a329a
+java:S1174"&Make this finalize() method protected.(†Ôş–ûÿÿÿÿ8ü¶›ïı1J$ae3282ef-802b-4664-bb1d-08269b9e7f0f
+r	java:S106"+Replace this use of System.out by a logger.(Ú‡­ıÿÿÿÿ8û“ ïı1J$092a6ad4-e103-4263-84cc-a3324e77ca08

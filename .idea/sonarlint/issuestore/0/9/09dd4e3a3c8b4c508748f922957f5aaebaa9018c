@@ -1,11 +1,11 @@
 
 w
-java:S3740	"/Provide the parametrized type for this generic.(—«Ñçûÿÿÿÿ8•…èı1J$479434b3-f5ee-455c-a734-11fc3675ec64
+java:S3740	"/Provide the parametrized type for this generic.(—«Ñçûÿÿÿÿ8•…èı1J$46337882-b21d-4fe6-9f14-d4c7c6708f93
 w
-java:S3740	"/Provide the parametrized type for this generic.(—«Ñçûÿÿÿÿ8‚•…èı1J$fd5e10b7-090a-4415-ad10-0ff385faf1b1
+java:S3740	"/Provide the parametrized type for this generic.(—«Ñçûÿÿÿÿ8‚•…èı1J$b6843369-d3f7-42dc-952c-51bab2020784
 r
-java:S3740"/Provide the parametrized type for this generic.(æÕ‘Ã8®†èı1J$2f06795d-5840-479d-baff-2e053336016d
-¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(äÜúÜıÿÿÿÿ8†•…èı1J$2020a0a8-54e0-4c99-a932-725fd3657eb9
-r	java:S106"+Replace this use of System.out by a logger.(à¿öÑúÿÿÿÿ8“•…èı1J$3b0a52c3-4f20-49d5-a168-86a04b0fa605
-m	java:S106"+Replace this use of System.out by a logger.(õ§İô8”•…èı1J$cda5ad76-31dc-4848-9365-5a2005175c4e
-r	java:S106"+Replace this use of System.out by a logger.(Å­Ëİúÿÿÿÿ8ëÜ†èı1J$e4522368-7f2f-4dc7-b9ca-c3a759a2e2f1
+java:S3740"/Provide the parametrized type for this generic.(æÕ‘Ã8®†èı1J$2de42e00-7b96-4636-9490-13c07865e5d4
+¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(äÜúÜıÿÿÿÿ8†•…èı1J$bb1ebc22-5c3d-4c33-93b4-69e290b4c608
+r	java:S106"+Replace this use of System.out by a logger.(à¿öÑúÿÿÿÿ8“•…èı1J$353668c8-40a8-4af9-af5c-8deda8aa8049
+m	java:S106"+Replace this use of System.out by a logger.(õ§İô8”•…èı1J$0944650a-4f2b-45fc-9f8e-0b61a4562a23
+r	java:S106"+Replace this use of System.out by a logger.(Å­Ëİúÿÿÿÿ8ëÜ†èı1J$0a07514c-de7b-4dff-b24f-a74573985882

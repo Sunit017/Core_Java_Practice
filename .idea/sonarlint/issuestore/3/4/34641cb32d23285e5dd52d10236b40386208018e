@@ -1,6 +1,6 @@
 
-r	java:S106"+Replace this use of System.out by a logger.(áêıíÿÿÿÿÿ8 ¤ÑÁü1J$c9685ee9-a085-47e1-ad90-188ce022d5f8
-m	java:S106"+Replace this use of System.out by a logger.(Ÿ—ÿÚ8äšÔÁü1J$06363483-06ce-4bb4-85d1-703f7ea68129
-m	java:S106"+Replace this use of System.out by a logger.(ˆÆñ“8®İÔÁü1J$913ff6cd-54e8-4db4-95c4-69528da5afe0
+r	java:S106"+Replace this use of System.out by a logger.(áêıíÿÿÿÿÿ8 ¤ÑÁü1J$74b24023-629b-4fc6-9b3f-4d79942c2a97
+m	java:S106"+Replace this use of System.out by a logger.(Ÿ—ÿÚ8äšÔÁü1J$61d6efc1-20bb-4d89-acf0-2a5b068357e4
+m	java:S106"+Replace this use of System.out by a logger.(ˆÆñ“8®İÔÁü1J$ab1d3689-2d31-4640-a720-6bb54ba8ae25
 |
-java:S2121"9Remove this "compareTo" call; it has predictable results.(ˆÆñ“8‘ÔÕÁü1J$1272c08f-e40b-4a2c-a549-db7ec3ec86fc
+java:S2121"9Remove this "compareTo" call; it has predictable results.(ˆÆñ“8‘ÔÕÁü1J$6dd10fde-42db-41b1-aaf1-1b0718c94ded

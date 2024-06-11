@@ -190,7 +190,60 @@ For non empty treemap if we are trying to insert an entry with null key then we 
 for empty treemap as the first entry with null key is allowed , but after inserting that entry if we are trying to insert any other entry then we will get run time exception saying
 null pointer exception
 Note=== the above null acceptance rule applicable util 1.6 V only , from 1.7V onwards null is not allowed for key 
+for value we can use null any where and any time 
 
+Constructor==
+------------
+
+1. TreeMap t = new TreeMap() // elements will be inserted with d.n.s
+2. Treemap t=new treemap(comparator) // customized sorting order 
+3. TreeMap t = new TreeMap(Map m);
+4. TreeMap t= new TreeMap (sortedMap m) 
 Navigable MaP
 ------------------
 child interface of sorted map , define some util method for navigation 
+
+
+Hashtable-
+=====================
+1. Underlying ds for hashtable is hastable 
+2. Insertion order is not preserved and it is based on hashcode of keys 
+3.Duplicate keys are not allowed and values can be duplicated 
+4.Heterogenous object are allow for the both keys and values 
+5. null is not allow for both key and value otherwise we will get run time exception saying null pointer exception 
+6.it implements serializable and cloneable interfaces but not random access 
+7.Every method present in hashtable is synchronized and hence hashtable object is thread safe 
+8.Hashtable is best choice if our frequent operation is search operation 
+
+Constructors --
+---------------------
+HashTable h =new Hashtable();
+HashTable h =new Hashtable(int intialcapacity);
+HashTable h =new Hashtable(int intialcapacity,float ratio);
+HashTable h =new Hashtable(Map m);
+
+Properties---
+======================
+In our program , which is changes frequently (like username , password , mailid , mobile number etc....) are not recommended to hard code in java program because if there is 
+any change to reflect that change recompilention , rebuild and redeploy application are required even sometimes server restart also required which creates a big impact to client
+we can overcome this problem by using properties file , such type of variable things we have to configure in the properties file 
+from that properties file we have to read into java program and we can use those properties , the main advantage of these approach is if there is a change in properties file to reflect
+that change just redeployment is enough which won't create any business impact to client .
+we can use java properties object to hold properties which are coming from properties file .
+
+In normal map (hashmap,hastable, treemap ) key and value can be any type but in case of properties key and value should be string type 
+
+Properties p =new Properties(); ----- Constructor 
+
+Method ==
+========
+String setPropertyOf(String pname, String pvale) / set new property
+
+if specified already availble then old value replaced with new value and returns old value 
+String getPropertyOf(String pname) /get value associated with specified property  / if the specified property not availbe then this method return null 
+
+Enumaration propertyNames() / return all property names present name properties object 
+
+void load (inputStream Is) / to load properties from properties file into java properties object 
+void store (outputStream os)/ to store properties from java properties into properties file 
+

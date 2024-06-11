@@ -137,3 +137,7 @@ S
 #com/mav/Map/WeakHashMapExample.java,2\b\2bbf7503f116d7ef2c2303bab2fc2f4a1ce98cb1
 L
 com/mav/Map/TreeMapDemo.java,d\7\d740548a099cd7ba0c273b201c752104e2870be6
+N
+com/mav/Map/HashTableDemo.java,8\4\848dd5e3923266d00ca27d8ca9b70079705a4852
+W
+'com/mav/Java8Features/ConsumerTest.java,7\a\7a19aa380725b0a1a6c7ec3cb1c9a08ba89a9bbe
