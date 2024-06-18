@@ -1,0 +1,65 @@
+
+
+Java 8 Features 
+
+1. Lambda Expression 
+2. Functional Interface 
+3.Default Method 
+4.Static Method in interface 
+5. Predicate -- predefine FI
+6. Function  --predefine FI
+7.Consumer --- predefine FI
+8. :: Method Refernce & Consturctor refernce 
+9. Stream API -- to write more concise code 
+10. Date and Time API (JODA API )
+
+
+Why we need 1.8 -
+1. to simplify programming
+2. to utilize functional programming benefit in java
+3. to enable parallel processing 
+
+1. Advantage Lambda Expression-
+================================
+To enable functional programming in java 
+To write more readable , maintainable & concise code 
+To use API's very easily and effetively 
+To enable Parallel processing 
+
+from lambda expression we can access class label variable 
+from lambda expression we can access local variable but local variable which are refernced with lambda expression is final , within lambda expression or outside lambda expression
+you can't change the value , if you wan to change it , it will throw class class cast exception 
+
+ 
+
+Predicate --
+==================
+Predicate return type always boolean value 
+interface Predicate<T>
+{
+boolean test(T t)
+}  //it will take some input , perform operation and return boolean value .
+
+Function--
+====================
+interface function< t ,r> // 2 arguments - 1 is input argument and another is return type
+{
+ r apply (t) 
+}
+
+whether it may be function or predicate it must return some value 
+
+Consumer --
+=============
+sometime i want to give some input and perform some operation but don't want return 
+
+interface consumer<t>
+{
+void accept (t)
+}
+Supplier---
+======================
+Supplier<R> - return type //
+{
+R get() // won't take any argument 
+}

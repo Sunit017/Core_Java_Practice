@@ -141,3 +141,5 @@ N
 com/mav/Map/HashTableDemo.java,8\4\848dd5e3923266d00ca27d8ca9b70079705a4852
 W
 'com/mav/Java8Features/ConsumerTest.java,7\a\7a19aa380725b0a1a6c7ec3cb1c9a08ba89a9bbe
+X
+(com/mav/Java8Features/StreamEvenOdd.java,4\2\421e23a3cce0b6d878a5cef7f04fb41dbb3f7f9f
