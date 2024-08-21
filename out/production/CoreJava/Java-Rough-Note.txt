@@ -1,12 +1,13 @@
 
 
+Design Pattern====
+------------------
 singleton = static instance of class 
 don't allow user to create default constructor 
 create a static method 
 
-
-
-
+Hibernate/JPA =====
+-------------------------
 Hibernate = this is an orm tool / JPA - this a specification (set of rule )
 
 to perform any operation with database from java application we can do it by hibernate but for this we need 
@@ -18,12 +19,10 @@ save , get
 in every save,update and delete  method we have to do session.beginTranscation(), session.getTranscation.commit()
 
 
-
-
-
+Collection Framework ===
+------------------------
 
 Cursor-----
-
 we need to retrive the object one by one 
 
 3 types
@@ -45,7 +44,7 @@ HashSet====
  Linked HashSet:-
  ===============================
 Uderlying DS Hashtable+linkedlist
-.duplicate not allow and insertion order is preserve 
+duplicate not allow and insertion order is preserve 
 
 
 SortedSet -:

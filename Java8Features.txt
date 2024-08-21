@@ -59,7 +59,38 @@ void accept (t)
 }
 Supplier---
 ======================
-Supplier<R> - return type //
+Supplier<R> - return type // never going to take anything , always return something 
 {
 R get() // won't take any argument 
 }
+
+
+Stream --
+================
+Stream we use to process object from collection and perform bulk operation 
+Stream s =c.stream(); / default method inside collection 
+filter(Predicate<t>)/ filter some element from stream 
+map(function <t,r> f) /every element present in stream i want to create equivalent new group of object 
+
+-------------
+collect () - collect value from stream
+count() - count number of element in stream 
+sorted() - d.n.s
+sorted(comparator c)- customize sorting order 
+min(comparator c)
+max(comparator c)
+forEach() 
+toArray - to copy array
+stream.of()- group of value and array 
+
+Date&Time Api-
+=========================
+LocalDate date=LocalDate.now() / which return current system date 
+LocalTime time =LocalTime.now()/ which return current system time 
+
+int dd=date.getDayOfMonth();
+int mm =date.getMonthValue();
+int yyyy=date.getYear();
+
+Java.time - Package 
+

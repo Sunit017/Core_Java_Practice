@@ -1,5 +1,5 @@
 
-ú	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(°≥º∆8Ã“á∏Ä2J$ac4fc85f-d8f5-4bfe-b97b-d1505fbd1ea8
+ú	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(°≥º∆8à¶é∏Ä2J$0438acaa-2ed7-43a2-9ad5-a4685ef30d22
 Ç
-java:S1612"@Replace this lambda with method reference 'System.out::println'.(æ≥˝)8ı“á∏Ä2J$41db9590-6cc6-435e-953c-d33130c63ec7
-l	java:S106"+Replace this use of System.out by a logger.(æ≥˝)8Å”á∏Ä2J$ef521983-a5d2-4375-885f-04307c97afae
+java:S1612"@Replace this lambda with method reference 'System.out::println'.(æ≥˝)8ë¶é∏Ä2J$f956e26c-e218-4a43-8ab4-d5be915f19a4
+l	java:S106"+Replace this use of System.out by a logger.(æ≥˝)8î¶é∏Ä2J$ef8c6ed3-aa7d-43e9-8a84-a7009b2a2f20

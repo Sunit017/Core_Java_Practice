@@ -1,10 +1,10 @@
 
 r
-java:S3740"/Provide the parametrized type for this generic.(ΘΆΨ8χª‡ξύ1J$9aa49c81-3e70-48ef-abc6-460c66e689c7
+java:S3740"/Provide the parametrized type for this generic.(ΘΆΨ8χª‡ξύ1J$aee729a2-ccc6-46ff-b7bb-5039e2550b95
 r
-java:S3740"/Provide the parametrized type for this generic.(ΘΆΨ8χª‡ξύ1J$d484f03e-a497-4ce0-b12d-119fd2c6c5e2
+java:S3740"/Provide the parametrized type for this generic.(ΘΆΨ8χª‡ξύ1J$e074124a-e06a-4297-b9dc-50de8c649b4e
 
-java:S4973"<Strings and Boxed types should be compared using "equals()".(³Χ¦‡8²ς³ξύ1J$9f509744-dcb3-4adc-86ab-6d2a386e70f4
-΅	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(δάϊάύÿÿÿÿ8χª‡ξύ1J$9c92f75c-8793-49e0-9142-f6af03ebbb99
-m	java:S106"+Replace this use of System.out by a logger.(ϋµ‡ψ8®γ‡ξύ1J$6d50562c-af82-433d-a6a0-54b4e730d711
-m	java:S106"+Replace this use of System.out by a logger.(³Χ¦‡8ο―£ξύ1J$0413efad-f173-42ae-b212-d6c65f0bc92f
+java:S4973"<Strings and Boxed types should be compared using "equals()".(³Χ¦‡8²ς³ξύ1J$66d0402e-2c1e-4c53-9349-55856a3b2fea
+΅	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(δάϊάύÿÿÿÿ8χª‡ξύ1J$d0d961fa-a11e-4c84-8124-910c99aa4aa5
+m	java:S106"+Replace this use of System.out by a logger.(ϋµ‡ψ8®γ‡ξύ1J$cd6b5df0-8348-4da4-8413-203218e23837
+m	java:S106"+Replace this use of System.out by a logger.(³Χ¦‡8ο―£ξύ1J$23743bc9-af09-4882-8ba2-7f6e86bdd1d2

@@ -1,10 +1,10 @@
 
 w
-java:S3740	"/Provide the parametrized type for this generic.(ßð Üùÿÿÿÿ8Œ¥°Åü1J$00f3ddaa-3125-4345-9a0d-5c925c99e761
+java:S3740	"/Provide the parametrized type for this generic.(ßð Üùÿÿÿÿ8Œ¥°Åü1J$ba81c38e-77a2-4c79-aff5-930deb3d6c20
 w
-java:S3740	"/Provide the parametrized type for this generic.(ßð Üùÿÿÿÿ8Œ¥°Åü1J$89d032ae-d2d1-4451-a3f9-9c2892bc6e9a
+java:S3740	"/Provide the parametrized type for this generic.(ßð Üùÿÿÿÿ8Œ¥°Åü1J$2e403a63-63ad-481f-944c-737e6f4cbcee
 w
-java:S3740"/Provide the parametrized type for this generic.(ªÿð«ýÿÿÿÿ8›¥°Åü1J$e8471cac-7e79-4b6a-9854-671f4a8026ca
-r	java:S106"+Replace this use of System.out by a logger.(”åÕ÷ûÿÿÿÿ8©¥°Åü1J$24716b0b-20cd-4c85-a658-2c549857a8e0
+java:S3740"/Provide the parametrized type for this generic.(ªÿð«ýÿÿÿÿ8›¥°Åü1J$d881ecec-c544-4aee-9162-b789dde5bf10
+r	java:S106"+Replace this use of System.out by a logger.(”åÕ÷ûÿÿÿÿ8©¥°Åü1J$faf0c243-a779-4091-b182-c5b153b4f985
 q
-java:S1128".Remove this unused import 'java.util.Objects'.(¼¸õ›8®¥°Åü1J$5251f842-348a-41bf-93cb-85440f0ecd20
+java:S1128".Remove this unused import 'java.util.Objects'.(¼¸õ›8®¥°Åü1J$4a7d1f61-ed1b-4a2d-886b-22a6a1b630f9

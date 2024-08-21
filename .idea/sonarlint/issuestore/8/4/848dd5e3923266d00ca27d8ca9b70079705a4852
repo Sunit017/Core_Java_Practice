@@ -1,11 +1,11 @@
 
 w
-java:S3740"/Provide the parametrized type for this generic.(ôÛ¦…ûÿÿÿÿ8›…Í½þ1J$25121722-6bfb-4e45-9d44-d3ade0a625ac
+java:S3740"/Provide the parametrized type for this generic.(ôÛ¦…ûÿÿÿÿ8›…Í½þ1J$f0057abf-0c02-44d4-806c-0c4bbabc511d
 w
-java:S3740"/Provide the parametrized type for this generic.(ôÛ¦…ûÿÿÿÿ8¬…Í½þ1J$9a3388d6-dd99-4677-b92b-36dd230d5881
-¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(äÜúÜýÿÿÿÿ8±…Í½þ1J$f7f15409-ccf0-47cd-ace2-4eed099cf507
+java:S3740"/Provide the parametrized type for this generic.(ôÛ¦…ûÿÿÿÿ8¬…Í½þ1J$eb6d87ea-865c-4673-a6df-46419d4968cc
+¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(äÜúÜýÿÿÿÿ8±…Í½þ1J$f8160d0a-7c2b-494a-b241-992c24469bce
 ž
-java:S1149"VReplace the synchronized class "Hashtable" by an unsynchronized one such as "HashMap".(ôÛ¦…ûÿÿÿÿ8Ú…Í½þ1J$723e2647-64ee-4521-a7c8-a5e8f6a8cfbe
-r	java:S106"+Replace this use of System.out by a logger.(‹¢½’ûÿÿÿÿ8ùºÍ½þ1J$d47116b1-07ba-4188-872d-0d5255893ee0
+java:S1149"VReplace the synchronized class "Hashtable" by an unsynchronized one such as "HashMap".(ôÛ¦…ûÿÿÿÿ8Ú…Í½þ1J$853d1abd-ecd5-4be3-97cf-71d484767400
+r	java:S106"+Replace this use of System.out by a logger.(‹¢½’ûÿÿÿÿ8ùºÍ½þ1J$1d1ec5de-0cfd-4922-92e9-875b38f3b1a1
 ˜
-java:S1206"PThis class overrides "hashCode()" and should therefore also override "equals()".(êì²³ÿÿÿÿÿ8Ú…Í½þ1J$240aad80-aace-44fe-b277-e2039a01d019
+java:S1206"PThis class overrides "hashCode()" and should therefore also override "equals()".(êì²³ÿÿÿÿÿ8Ú…Í½þ1J$e979d178-8edb-49cb-9563-d45f931b11d6
