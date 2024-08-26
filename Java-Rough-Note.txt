@@ -54,7 +54,7 @@ represet group of individual object where don't want duplicate data and some sor
 
 TreeSet :-
 =========================
-Balanced Tree  underlying DS
+Balanced Tree underlying DS
 duplicate not allow , insertion order not preserve 
 Heterogenious object not allow (Tree set and Tree Map)
 Null Acceptance allow but only once / for empty treeset first element null insertion is possible . after inserting that , if try to insert other element will get null pointer exception 
@@ -81,7 +81,7 @@ customize sorting order /contains 2 method compare and equal , when we are imple
 
 Interface and Abstract class
 
-1. When we don't know about full implmeatation we go for interface / when we know partial implementation go for abstract 
+1. When we don't know about full Implimation we go for interface / when we know partial implementation go for abstract 
 2. interface is fully abstract class because only abstract method allow / we can write both concert and abstract method 
 3. all the methods are public and abstract / abstract class here is no specificatio 
 4. in interface variable can be final public static / abstract class does n't have this type of specification
@@ -246,3 +246,14 @@ Enumaration propertyNames() / return all property names present name properties 
 void load (inputStream Is) / to load properties from properties file into java properties object 
 void store (outputStream os)/ to store properties from java properties into properties file 
 
+
+
+
+
+Concorent Collection in Java 
+------------------------------
+1.HashMap
+2.HashTable
+3.Synchronized HashMap
+4.Concuurent HashMap
+	

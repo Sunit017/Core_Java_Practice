@@ -94,3 +94,44 @@ int yyyy=date.getYear();
 
 Java.time - Package 
 
+
+
+Stream Api Operations===
+----------------------------
+Intermediate operations 
+======================
+1. Filter - it is goinf to return same number of elements of list or lesser 
+2. map - convert each and every element to another element by using some operation 
+ex- 
+List<String> words =Arrays.asList("apple","Bananna","cherry");
+List<String> result = words.stream().map(String::toUppercase).collect(Collectors.toList());
+3. Flat Map - if you have list of list of string you can flatten them into single list string 
+4. distinct - remove duplicate element 
+5.sorted - sort element in string 
+6.peek - debuging propose ,whatever operation you perform in stream it won't reflect 
+7.limit - set a limit while fetching  ex - fetch first 3 elements 
+List<Integer> num = Arrays.asList("1,4,8,3,2,9");
+List<Integer> res= num.stream.limit(3).collect(Collectors.toList());
+8.Skip - skip the element ex - skip the first 4 elements and print the rest 
+
+
+Terminal Operations ==
+------------------------
+
+1. forEach - used to do something with each and every elements in stream 
+2. collect -
+3. reduce - used to perform reduction on the elements - perform the operation unit the list have one single value 
+4. allmatch - used to check if all elements in the stream satisfy a given predicate , it return true if every element in the stream matches predicate , and false otherwise
+5. anymatch -at least one element in stream matches a given predicate , it return true and stop further process , if no element match return false 
+6. nonmatch - no element in stream match predicate 
+7.findfirst - used to retrive the first element if the given condition satisfy , return type always optional
+8.findAny - retrive any element that matches  a given condition 
+9. max - find the max element , return optional 
+10. min - find the min element , return optional
+11.toArray - convert the list into array 
+
+Collectors ===
+---------------
+1. joining - concate element of stream into single string 
+2. groupingBy- 
+

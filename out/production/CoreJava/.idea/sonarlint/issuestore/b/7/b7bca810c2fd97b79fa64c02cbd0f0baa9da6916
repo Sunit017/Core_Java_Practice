@@ -1,0 +1,8 @@
+
+€
+java:S1854"?Remove this useless assignment to local variable "uniqueItems".(Ž»¬ùüÿÿÿÿJ$170d4d17-736e-4b85-9d98-63ebbc841846
+q
+java:S1481"0Remove this unused "uniqueItems" local variable.(Ž»¬ùüÿÿÿÿJ$17089a41-0c5d-46b5-a414-a8c9d960217d
+w	java:S125"<This block of commented-out lines of code should be removed.(½¯èäJ$3a2c4700-b606-4264-92e6-faee69b7a166
+f	java:S106"+Replace this use of System.out by a logger.(Æ‘ìÊJ$477a30fe-84fa-447c-9b66-088b198fab33
+w	java:S125"<This block of commented-out lines of code should be removed.(âÛÂæJ$db3dc8d1-6320-46f7-bf94-750340d2057e

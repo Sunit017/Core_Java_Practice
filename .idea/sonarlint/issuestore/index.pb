@@ -147,3 +147,15 @@ Z
 *com/mav/Java8Features/ExampleStreamOf.java,7\0\7009e805482d824fea2c09910f123d4ad6fc6ec1
 `
 0com/mav/Java8Features/ExampleStreamGenerate.java,a\c\aceac932e171c27466c3948ee10623b2a129ae0d
+V
+&com/mav/interview/DuplicateNumber.java,f\1\f1868ef1e229165d80723f7edfd62ece69cb7165
+]
+-com/mav/interview/MostOccurringCharacter.java,9\1\91a4add6d74056af561f1a5230da2363f73adc3f
+^
+.com/mav/interview/DuplicateCharFromString.java,b\8\b86c96d25b4c6af357b14ffd13a5a355dde0594f
+c
+3com/mav/interview/SecondHighestAndLowestNumber.java,b\2\b25204e7dd7a6203ba98839d51796325b34c4858
+X
+(com/mav/interview/DuplicateElements.java,b\7\b7bca810c2fd97b79fa64c02cbd0f0baa9da6916
+]
+-com/mav/interview/Top25InterviewQuestion.java,c\b\cb1efc68075124dae69059db72530aee8ca0a5ba
