@@ -256,4 +256,13 @@ Concorent Collection in Java
 2.HashTable
 3.Synchronized HashMap
 4.Concuurent HashMap
+
+
+
+
+Q - HashMap Internal Implementation ?
+Ans - HashMap Stores key value pair in an array , each element is bucket , use hash function to determine which bucket key is use for retrive data ,if 2 key endup 
+same bucket then collision happen then hashmap manage this collision by using the linkedlist or balance tree 
+
+ 
 	
