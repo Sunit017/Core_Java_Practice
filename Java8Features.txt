@@ -98,7 +98,7 @@ Java.time - Package
 
 Stream Api Operations===
 ----------------------------
-Intermediate operations 
+Intermediate operations - Transform stream into another stream
 ======================
 1. Filter - it is goinf to return same number of elements of list or lesser 
 2. map - convert each and every element to another element by using some operation 
@@ -117,6 +117,7 @@ List<Integer> res= num.stream.limit(3).collect(Collectors.toList());
 
 Terminal Operations ==
 ------------------------
+It produce result and terminate the stream 
 
 1. forEach - used to do something with each and every elements in stream 
 2. collect -
@@ -135,3 +136,30 @@ Collectors ===
 1. joining - concate element of stream into single string 
 2. groupingBy- 
 
+
+
+GIT--
+------
+DVCS - Distributed Version Control System 
+CVCS - Centralized Versio Control System 
+
+Working Directory - Where you write your code 
+Staging Area - here we are giving it to git to manage / git add filename 	
+
+git diff - if want to check what you added in file use this command and also use this command in working directory
+git diff --staging - you can check changes after moving the file to staging area 
+
+readme.md - markdown 
+
+Git remove - git rm --cached filename // delete file from git (after adding and commiting file if want to delete from staging )
+
+git push origin main /origin means the origin where you are pushing and fetching 
+
+Tagging 
+
+Branch - git checkout (old ) / git switch (new ) /
+for creating branch - git checkout -b branchname 
+going back to previous branc - git switch -
+delete branch - git branch -d branchname 
+
+git merge - suppose i want want merge my feature branch into main branch . do git checkout come to main branch then do git merge feature1

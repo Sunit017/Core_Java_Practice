@@ -170,5 +170,41 @@ Angular --
 15 What is client side render and what is server side rendering ?
 
 
+
+Questions--
+1. How to handle multiple beans in springboot ? ans - 2 types - @primary and @qualifer 
+2. how to create custome annotation in springboot - to define custom annotation you need to create interface and use meta annoations like @target and @retention 
+3. what is caching in springboot - suppose we db , specfic query we have to hit often , then we implement caching mechanism that saves client money , using this caching 
+we get data , everytime no need to hit the query , and also manages time , there are many caching mechanism like escache , redischache  , @cacheable - mark method result 
+which store in cache and @cachevict - we don't need cache anymore 
+
+4. how interservice communication happen in microservices?
+ans - in 2 types synchronous and asychronous , 
+
+5. how we can customize the auto configuration in springboot - in various way we can do it by using application properties or we can create @configuration file there
+we create bean of it like suppose you don't want by default datasource we can create bean of data source in our configuration file 
+
+6. What are the differnt scopes in springboot ?
+- singleton , prototype, request , session , websocket 
+
+7. can we create custom scope ?
+ans - yes we can 
+
+8.what is differnce between @sprigbootapplication and @enableautoconfiguration 
+ans - @sprigbootapplication combination of 3 - @configuration ,@enableautconfiguration,@componentscan 	, @enableautoconfiguration is automatic configuration of 
+spring bean depends on class path depedencies 
+
+9. what is differnce between service registry and service discovery ?
+
+ans - 
+
+10. what is saga design pattern in microservices?
+ans - The Saga Design Pattern is a distributed transaction management pattern used in microservices architectures to maintain 
+data consistency across multiple services without relying on traditional ACID (Atomicity, Consistency, Isolation, Durability) transactions
+
+11. What is the differnce between factory and abstract factory design pattern ?
+ans - both come from creational design pattern (Trying to create complex object), factory design - 	
+
+
    
  

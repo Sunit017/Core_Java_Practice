@@ -1,0 +1,6 @@
+
+š
+java:S6204"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(Æî‡ýøÿÿÿÿ8¡ÝÂû¨2J$aaa2e840-d9fa-4adb-be4e-26d52f6dc7af
+‡
+java:S1612"?Replace this lambda with method reference 'Collection::stream'.(Æî‡ýøÿÿÿÿ8£ÝÂû¨2J$365de9e4-d467-4a68-9ea7-95fa5634177d
+L	java:S106"+Replace this use of System.out by a logger.(š—“¿ÿÿÿÿÿ8Ô«Ãû¨2

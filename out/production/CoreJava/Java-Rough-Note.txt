@@ -265,4 +265,22 @@ Ans - HashMap Stores key value pair in an array , each element is bucket , use h
 same bucket then collision happen then hashmap manage this collision by using the linkedlist or balance tree 
 
  
-	
+Q - What is the differnce between Throw and Throws KeyWord?
+Ans - Throw 
+1. Throw keyword use inside method 
+2.It is used to explicitly throw an exception .
+3.If we are thorwing an exception using throw keyword then we must throw it using throws or handle it using  try and catch block 
+
+Throws -
+1. used in method signature .
+2. we use throws keyword to declare exception that might occure from method body .
+3.we can decalre multiple exception using throws keyword .
+
+Q - What is the differnce between This and Super ?
+Ans - This -
+1.This refer current class instance 
+2.this is used call the constructor of same class
+
+Super -
+1.super refer the current instance of parent class
+2.It is used to call the parent class constructor 
