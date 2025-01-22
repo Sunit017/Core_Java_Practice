@@ -284,3 +284,40 @@ Ans - This -
 Super -
 1.super refer the current instance of parent class
 2.It is used to call the parent class constructor 
+
+
+Q - How can i create own arraylist and which doesn't contain duplicate ?
+
+public class myArrayList extends ArrayList{
+
+public boolean add (Object o)
+{
+if(this.contains(o)){
+return true;}
+else {
+return super.add(o);
+}
+}
+psvm(String[] args)
+ myArrayList ml= new myArrayList();
+ m1.add(1);
+ m1.add(1);
+ m1.add(1);
+ m1.add(2);
+ s.o.p(m1); 
+ }
+ it won't take any duplicate element because we are writing our own method 
+ 
+Q- Why set doesn't allow duplicate element ?
+Ans - Set implementation internally use a map to store object as a key we know map key doesn't allow duplicate key . 
+
+Q- What is fail fast and fail safe iterator ?
+Ans - A iterator which will fail fast when we do any modification while iterating a collection is called fail fast iterator .
+      Iterator which allow us to do modify in middle while iterating a collection is called non fail fast iterator .
+
+
+Q - What is the differnce between equal and hashcode method?
+Ans - Hashcode represent the unique or refernce number of an object through which we can easily identify uniqueness of an object 
+    - Equal used to compare the object based on its content 
+	
+	

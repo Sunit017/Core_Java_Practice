@@ -138,28 +138,38 @@ Collectors ===
 
 
 
-GIT--
-------
-DVCS - Distributed Version Control System 
-CVCS - Centralized Versio Control System 
 
-Working Directory - Where you write your code 
-Staging Area - here we are giving it to git to manage / git add filename 	
+Some Java 8 Features Questions --
+=================================
+1.What is Functional Interface ?
+2.Can you tell some functional interface before java 8 ?
+3.can you write a functional interface?
+4.can you extend functional interface from another functional interface?
+5. what are all functional interface introdue in java 8 ?
+6. What is lambda expression ?
+7. What is stream api ?
+8. What is stream in java 8 ?
+ans - stream is a sequence of object that supports various methods which can be pipeline to produce desire result . 
+9. What is method refernce , it can be static method reference and instance methode reference 
+10. spell out few method you used in project ?
+11. What is diffence between map and flat map 
+12. Program - Frequency of each character of given string 
+   
+   String input = apple;
+   Map<String ,Long> count = Arrays.stream(input.split("").collect(groupingBy(Function.identity(),counting()));
+   
+13. Assume you have list of employeein various dept ,WAP to find highest paid employee from each dept?
+14. stream vs parallel stream 
+    - In Stream all the operation happen in single core , in parallel stream opeartion will happen differnt differnt core , 
 
-git diff - if want to check what you added in file use this command and also use this command in working directory
-git diff --staging - you can check changes after moving the file to staging area 
+15. What is completablefuture ?
+   Ans - it is used for asyncronous programing in java 
+   
+16. How to decide thread pool size ?
+  Ans - cpu intensive tasks
+       io intensive tasks
+	   
+17. WAP to print even and odd using 2 threads ?
 
-readme.md - markdown 
 
-Git remove - git rm --cached filename // delete file from git (after adding and commiting file if want to delete from staging )
 
-git push origin main /origin means the origin where you are pushing and fetching 
-
-Tagging 
-
-Branch - git checkout (old ) / git switch (new ) /
-for creating branch - git checkout -b branchname 
-going back to previous branc - git switch -
-delete branch - git branch -d branchname 
-
-git merge - suppose i want want merge my feature branch into main branch . do git checkout come to main branch then do git merge feature1

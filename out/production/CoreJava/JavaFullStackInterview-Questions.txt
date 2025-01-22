@@ -8,6 +8,11 @@ Core Java --
 5.What do you about abstraction ?
 6.What is the differnce between abstraction and interface ?
 7.What are the access modifier present, how and which class can access what ?
+8 . What is the differnce between stream and collection ?
+ans - basically we can do parallel processing in stream and it is immutable but in case collection it is a data structure and mutable , we use stream in collection 
+9.What is finally block ? 
+10 . What is the differnce between == and .equals() ?
+
 
 
 Collection FrameWork--
@@ -40,6 +45,11 @@ Java 8 Features --
 11. What is date and time api in java 8 ?
 12. Practice 20 -30 program in java 8 ?
 13. also look what are the java 17 features ?
+14 . What is default and static method ?
+15 . Diamond problem in function interface ?
+ans - If 2 implement interface contain same default method that we say it is diamond problem , handle by using super keyword
+
+16. What is differnce between fillter and map ?
 
 
 Spring And SpringBoot --
@@ -168,6 +178,68 @@ Angular --
 13. What are the directives on angular ?
 14 What is pipe in angular ?
 15 What is client side render and what is server side rendering ?
+
+
+
+Questions--
+1. How to handle multiple beans in springboot ? ans - 2 types - @primary and @qualifer 
+2. how to create custome annotation in springboot - to define custom annotation you need to create interface and use meta annoations like @target and @retention 
+3. what is caching in springboot - suppose we db , specfic query we have to hit often , then we implement caching mechanism that saves client money , using this caching 
+we get data , everytime no need to hit the query , and also manages time , there are many caching mechanism like escache , redischache  , @cacheable - mark method result 
+which store in cache and @cachevict - we don't need cache anymore 
+
+4. how interservice communication happen in microservices?
+ans - in 2 types synchronous and asychronous , 
+
+5. how we can customize the auto configuration in springboot - in various way we can do it by using application properties or we can create @configuration file there
+we create bean of it like suppose you don't want by default datasource we can create bean of data source in our configuration file 
+
+6. What are the differnt scopes in springboot ?
+- singleton , prototype, request , session , websocket 
+
+7. can we create custom scope ?
+ans - yes we can 
+
+8.what is differnce between @sprigbootapplication and @enableautoconfiguration 
+ans - @sprigbootapplication combination of 3 - @configuration ,@enableautconfiguration,@componentscan 	, @enableautoconfiguration is automatic configuration of 
+spring bean depends on class path depedencies 
+
+9. what is differnce between service registry and service discovery ?
+
+ans - 
+
+10. what is saga design pattern in microservices?
+ans - The Saga Design Pattern is a distributed transaction management pattern used in microservices architectures to maintain 
+data consistency across multiple services without relying on traditional ACID (Atomicity, Consistency, Isolation, Durability) transactions
+
+11. What is the differnce between factory and abstract factory design pattern ?
+ans - both come from creational design pattern (Trying to create complex object), factory design - 	
+
+
+12. What is rate limiting ?
+ans - limits the number of hits goes to microservices , it won't allow multiple hits and it also its prevent from that 
+
+13 . What is springboot starter ?
+ans - it is springboot library , we won't write boiler plate code , makes developer task easy like , springboot -starter -web , springboot -starter - data jpa
+
+14. What order of precedence in SpringBoot ?
+ans - commandline - enviorment variable - external file 
+
+15 - What circular dependecy ?
+ans - suppose we have service A and Service B in some situation service A depends on Service b and same time serive b is also depends on service a by directly
+or indirectly and it will be in the loop call that we can call circulat dependecy
+
+16. What is @SpringBootApplication ?
+ans - it is combination of @componentscan , @springbootconfiguration , @enableautconfiguration 
+
+17 . What is the default endpoint of springboot actuator ?
+ans - /info , /actuator 
+
+18 . Spring profile ?
+ans - spring profile basically means provide differnt enviorment for differnce configuration  
+
+19. Java Memory Management ?
+
 
 
    

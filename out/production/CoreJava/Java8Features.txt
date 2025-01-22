@@ -98,7 +98,7 @@ Java.time - Package
 
 Stream Api Operations===
 ----------------------------
-Intermediate operations 
+Intermediate operations - Transform stream into another stream
 ======================
 1. Filter - it is goinf to return same number of elements of list or lesser 
 2. map - convert each and every element to another element by using some operation 
@@ -117,6 +117,7 @@ List<Integer> res= num.stream.limit(3).collect(Collectors.toList());
 
 Terminal Operations ==
 ------------------------
+It produce result and terminate the stream 
 
 1. forEach - used to do something with each and every elements in stream 
 2. collect -
@@ -134,4 +135,41 @@ Collectors ===
 ---------------
 1. joining - concate element of stream into single string 
 2. groupingBy- 
+
+
+
+
+Some Java 8 Features Questions --
+=================================
+1.What is Functional Interface ?
+2.Can you tell some functional interface before java 8 ?
+3.can you write a functional interface?
+4.can you extend functional interface from another functional interface?
+5. what are all functional interface introdue in java 8 ?
+6. What is lambda expression ?
+7. What is stream api ?
+8. What is stream in java 8 ?
+ans - stream is a sequence of object that supports various methods which can be pipeline to produce desire result . 
+9. What is method refernce , it can be static method reference and instance methode reference 
+10. spell out few method you used in project ?
+11. What is diffence between map and flat map 
+12. Program - Frequency of each character of given string 
+   
+   String input = apple;
+   Map<String ,Long> count = Arrays.stream(input.split("").collect(groupingBy(Function.identity(),counting()));
+   
+13. Assume you have list of employeein various dept ,WAP to find highest paid employee from each dept?
+14. stream vs parallel stream 
+    - In Stream all the operation happen in single core , in parallel stream opeartion will happen differnt differnt core , 
+
+15. What is completablefuture ?
+   Ans - it is used for asyncronous programing in java 
+   
+16. How to decide thread pool size ?
+  Ans - cpu intensive tasks
+       io intensive tasks
+	   
+17. WAP to print even and odd using 2 threads ?
+
+
 

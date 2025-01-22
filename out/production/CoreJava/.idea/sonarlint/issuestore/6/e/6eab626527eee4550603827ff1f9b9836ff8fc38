@@ -1,6 +1,9 @@
 
 š
-java:S6204"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(Æî‡ıøÿÿÿÿ8¡İÂû¨2J$aaa2e840-d9fa-4adb-be4e-26d52f6dc7af
+java:S6204"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(Æî‡ıøÿÿÿÿ8¶ Éû¨2J$6ee8ce5f-c443-41aa-ace8-f642200206ec
 ‡
-java:S1612"?Replace this lambda with method reference 'Collection::stream'.(Æî‡ıøÿÿÿÿ8£İÂû¨2J$365de9e4-d467-4a68-9ea7-95fa5634177d
-L	java:S106"+Replace this use of System.out by a logger.(š—“¿ÿÿÿÿÿ8Ô«Ãû¨2
+java:S1612"?Replace this lambda with method reference 'Collection::stream'.(Æî‡ıøÿÿÿÿ8¹ Éû¨2J$cb220666-1b4e-42a0-8d09-e92c31d4b61b
+r	java:S106"+Replace this use of System.out by a logger.(š—“¿ÿÿÿÿÿ8º Éû¨2J$a90520b8-b0d6-44e0-9529-8e79f23af1dd
+š
+java:S6204"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(“’Üøÿÿÿÿ8Â¹Éû¨2J$1e000b25-9327-4415-9467-fd2cc5ad94cb
+L	java:S106"+Replace this use of System.out by a logger.(Å­Ëİúÿÿÿÿ8½‰Êû¨2
