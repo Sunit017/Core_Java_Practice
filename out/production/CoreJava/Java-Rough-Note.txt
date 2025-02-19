@@ -321,3 +321,11 @@ Ans - Hashcode represent the unique or refernce number of an object through whic
     - Equal used to compare the object based on its content 
 	
 	
+Q- How you can create custom exception ?
+Ans - Create a class extend it from exception or runtime exception class and write the default constructor and pass the message .
+
+Q- How can you write own custome immutable class ?
+Ans - Make you class final , declare all the instances varibale with private and final . say no to settermethod , intialize all varibale in constructor 
+
+Q- Differnce Between Serialization and Deserialization ?
+Ans - Serialization - Converts an object into a storable or transferable format. Deserialization - Converts the serialized format back into an object.
