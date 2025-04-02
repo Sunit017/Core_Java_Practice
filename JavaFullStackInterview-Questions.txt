@@ -240,6 +240,10 @@ ans - spring profile basically means provide differnt enviorment for differnce c
 
 19. Java Memory Management ?
 
+20 . What is deep copy and shallow copy ?
+Ans - A shallow copy copies only the reference to the objects, not the actual objects themselves
+      A deep copy creates an entirely new copy of an object along with all the referenced objects
+
 
 
    
