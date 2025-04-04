@@ -181,5 +181,5 @@ Y
 )com/mav/important/SumOfArrayElements.java,6\b\6bd1866d658840ba8b1edffefdd3502b261a515a
 \
 ,com/mav/important/FindTheLargestElement.java,7\4\74dcc0cca2af9804e80984dcba85f8c8d54d20e8
-U
-%com/mav/Java8Features/Add2Number.java,b\1\b1d3b39c25bcab5b2211078e115e4199a72e7332
+[
++com/mav/DesignPattern/SingletonExample.java,e\a\ea2d82c2520d3e5b741b39ccbe08908a77dde103
