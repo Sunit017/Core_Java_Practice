@@ -171,5 +171,11 @@ ans - stream is a sequence of object that supports various methods which can be 
 	   
 17. WAP to print even and odd using 2 threads ?
 
+18. What is a Parallel Stream in Java?
+A Parallel Stream in Java is a feature of the Java Streams API that allows you to process elements concurrently using multiple threads, leveraging the Fork/Join framework internally. 
+It helps improve performance when working with large data collections.
+
+
+
 
 

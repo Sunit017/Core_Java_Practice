@@ -1,5 +1,2 @@
 
-{
-java:S1854"8Remove this useless assignment to local variable "obj1".(„Ôž™8ä— Õù1J$7272dc92-0600-4a1c-831b-e81b47dfdd77
-l
-java:S1481")Remove this unused "obj1" local variable.(„Ôž™8ì— Õù1J$e2fd34b5-ea7f-436b-8550-b4d5f7e2a727
+m	java:S106"+Replace this use of System.out by a logger.(ÎÔ’Ø8ýÕª•Ñ2J$d2a293dc-6250-4025-b8d2-0005ddc346d1

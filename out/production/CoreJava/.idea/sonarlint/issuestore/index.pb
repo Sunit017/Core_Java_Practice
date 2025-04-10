@@ -177,3 +177,9 @@ U
 %com/mav/interview/FlatMapExample.java,6\e\6eab626527eee4550603827ff1f9b9836ff8fc38
 Y
 )com/mav/practice/IncrementOperatorEx.java,c\f\cfb153931789a9656655be58f1d4c3ab947df2e7
+Y
+)com/mav/important/SumOfArrayElements.java,6\b\6bd1866d658840ba8b1edffefdd3502b261a515a
+\
+,com/mav/important/FindTheLargestElement.java,7\4\74dcc0cca2af9804e80984dcba85f8c8d54d20e8
+[
++com/mav/DesignPattern/SingletonExample.java,e\a\ea2d82c2520d3e5b741b39ccbe08908a77dde103

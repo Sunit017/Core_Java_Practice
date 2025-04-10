@@ -12,7 +12,11 @@ Core Java --
 ans - basically we can do parallel processing in stream and it is immutable but in case collection it is a data structure and mutable , we use stream in collection 
 9.What is finally block ? 
 10 . What is the differnce between == and .equals() ?
-
+11. Immutable class in java and how we implement it ?
+12.  how does immutable help in multi threading ?
+13. purpose of serialization ?
+14.	what is singleton pattern in java ?
+15. how 
 
 
 Collection FrameWork--
@@ -239,6 +243,35 @@ ans - /info , /actuator
 ans - spring profile basically means provide differnt enviorment for differnce configuration  
 
 19. Java Memory Management ?
+
+20 . What is deep copy and shallow copy ?
+Ans - A shallow copy copies only the reference to the objects, not the actual objects themselves
+      A deep copy creates an entirely new copy of an object along with all the referenced objects
+
+21. Where u used factory design pattern ?
+ans - 
+
+How to communicate between 2 micro services ?
+Ans -Syncronus - asynchronous
+rest template - feign client ,web client - reactive programming , non blocking , better choice handling high concurency application , 
+message broker - rabit mq , kafka , 
+
+What is Saga design Pattern ?
+ans - The Saga Design Pattern is used in distributed systems to manage long-running transactions across multiple microservices without using distributed transactions.
+ It ensures data consistency by using a sequence of local transactions across multiple services.
+Types of Saga Pattern
+There are two main types of Saga patterns:
+1️.Choreography-Based Saga (Event-Driven)
+2️.Orchestration-Based Saga (Centralized Control)
+
+Volatile - Used to indicate variable value can be edited by differnt thread , it ensure visibility of variable , it tells jvm value of varibale may be change and get update 
+
+Trasinet - context of serialization , any varibale as transiant that specific field not serialize .
+
+Atomic - Varible can be read and update in single operation , 
+
+What is class loader 
+it part of jre, we have bootstrap, system class loader 
 
 
 
