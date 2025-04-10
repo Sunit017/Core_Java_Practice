@@ -1,10 +1,29 @@
-
+  
 
 Design Pattern====
 ------------------
 singleton = static instance of class 
 don't allow user to create default constructor 
 create a static method 
+
+class ABC {
+    // Eager initialization of the singleton instance
+    private static final ABC obj = new ABC();
+    // Private constructor to prevent instantiation
+    private ABC() {}
+    // Public method to provide access to the singleton instance
+    public static ABC getInstance() {
+        return obj;
+    }
+}
+public class Singleton {
+    public static void main(String[] args) {
+        ABC obj1 = ABC.getInstance();
+        ABC obj2 = ABC.getInstance();
+        System.out.println(obj1 == obj2); // Output: true (Same instance)
+    }
+}
+
 
 Hibernate/JPA =====
 -------------------------

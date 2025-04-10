@@ -165,7 +165,7 @@ ans - stream is a sequence of object that supports various methods which can be 
 15. What is completablefuture ?
    Ans - it is used for asyncronous programing in java 
    
-16. How to decide thread pool size ?
+16. How to decide thread pool size ? 
   Ans - cpu intensive tasks
        io intensive tasks
 	   
