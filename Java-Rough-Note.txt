@@ -315,3 +315,13 @@ Ans - Make you class final , declare all the instances varibale with private and
 
 Q- Differnce Between Serialization and Deserialization ?
 Ans - Serialization - Converts an object into a storable or transferable format. Deserialization - Converts the serialized format back into an object.
+
+Q- What is the differnce between Iterator and listIterator ?
+Ans - Iterator is universal iterator and listIterator is only for list 
+      Iterator is only forward direction and listIterator both forward and backward
+	  iterator read and remove and listIterator has read , remove and access 
+	  
+Q - What is Serialization and where usally use ?
+ Ans - process of coverting object into byte stream , from place to anoter place use serailization , 
+ to make a class serializable implement Serializable interface (marker interface – no methods to implement). 
+ Use - Saving object state - Save objects to disk for persistence ,Hibernate/JPA - Entities might be serialized for caching or clustering

@@ -16,7 +16,11 @@ ans - basically we can do parallel processing in stream and it is immutable but 
 12.  how does immutable help in multi threading ?
 13. purpose of serialization ?
 14.	what is singleton pattern in java ?
-15. how 
+15. What is the differnce between method overloading and overriding 
+16 . differnce betweeen checked exception and unchecked exception 
+17 . what is the use of runnable interface in java , what is the method inside it , what is return type of run method ?
+18 . equals() vs hashCode(): equals compares values, hashCode used in hash-based structures.
+
 
 
 Collection FrameWork--
@@ -32,6 +36,11 @@ Collection FrameWork--
 9. Which collection you used in your project and why ?
 10. Overview all the interfaces and classes which are present in collection before interview - (Suggestion)
 11. What is differnce between hashmap and concurrent hashmap?
+12. what is the use of generic in collection ?
+13.is arraylist and linkedlist are thread safe , which list is thread safe
+14.what is concurent modification in collection ?
+15. what is the major differnce between hashtbale and concurrent hashmap , why we prefer concurrent hashmap
+16 what is the differnce betweeen hashmap and identity hashmap 
 
 
 Java 8 Features --
@@ -52,8 +61,14 @@ Java 8 Features --
 14 . What is default and static method ?
 15 . Diamond problem in function interface ?
 ans - If 2 implement interface contain same default method that we say it is diamond problem , handle by using super keyword
-
 16. What is differnce between fillter and map ?
+17.can we write object class method inside functional interface?
+18. explain me where you have used java 8 features in your project 
+19.what is method refernce , how it works ?
+20. how we can call static method by method refernce 
+21.what is the diffence between consumer and suplier 
+22. what are functional interface you worked and explain me 
+
 
 
 Spring And SpringBoot --
@@ -124,6 +139,7 @@ Spring Security ---
 8. have you worked on roled based authentication and authurization?
 9. what is the oauth2?
 10. what is sso and keyclock and did you get chance to work on it ?
+I have a valid JWT token, but the service I'm calling is down (e.g., 500, timeout, etc.) — what should I do?
 
 
 SQL / Hibernate ---
@@ -142,7 +158,9 @@ SQL / Hibernate ---
 12. How you do mapping ?
 13. What is differnce between primary key and composite key ?
 14. Differnce between hibernate and JPA
-
+15.What is the N+1 query problem in JPA?
+Ans - Happens when you fetch a parent entity and JPA fires a query per child (inefficient).
+      Fix with @EntityGraph or fetch = FetchType.EAGER/LAZY
 
 Others ---
 ================
@@ -272,6 +290,8 @@ Atomic - Varible can be read and update in single operation ,
 
 What is class loader 
 it part of jre, we have bootstrap, system class loader 
+
+
 
 
 
