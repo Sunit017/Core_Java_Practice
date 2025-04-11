@@ -1,13 +1,50 @@
-
+  
 
 Design Pattern
 ------------------
+<<<<<<< HEAD
+singleton = static instance of class 
+don't allow user to create default constructor 
+create a static method 
+
+class ABC {
+    // Eager initialization of the singleton instance
+    private static final ABC obj = new ABC();
+    // Private constructor to prevent instantiation
+    private ABC() {}
+    // Public method to provide access to the singleton instance
+    public static ABC getInstance() {
+        return obj;
+    }
+}
+public class Singleton {
+    public static void main(String[] args) {
+        ABC obj1 = ABC.getInstance();
+        ABC obj2 = ABC.getInstance();
+        System.out.println(obj1 == obj2); // Output: true (Same instance)
+    }
+}
+
+
+Hibernate/JPA =====
+-------------------------
+Hibernate = this is an orm tool / JPA - this a specification (set of rule )
+
+to perform any operation with database from java application we can do it by hibernate but for this we need 
+
+Session -> session factory ()-> configuration (data source config ) u have to do it in config.xml
+
+save , get 
+
+in every save,update and delete  method we have to do session.beginTranscation(), session.getTranscation.commit()
+=======
 SINGLETON -:
 A Singleton Class is a design pattern that ensures only one instance of the class exists throughout the application. It provides a global access point to that instance
 This Singleton pattern is one of the most common design patterns in Java, especially used in logging, caching, configuration management, and database connections
 1️. Make the Constructor Private - Prevents direct object creation
 2. Create a Static Instance Variable - Ensures a single instance is shared
 3. Provide a Public Static Method to Get the Instance  - Provides global access to the instance
+>>>>>>> 700d7e3f1fa29023f263597bfbde908b4243fd1a
 
 
 Collection Framework ===
