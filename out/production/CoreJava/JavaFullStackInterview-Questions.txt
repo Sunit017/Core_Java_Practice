@@ -19,6 +19,7 @@ ans - basically we can do parallel processing in stream and it is immutable but 
 15. What is the differnce between method overloading and overriding 
 16 . differnce betweeen checked exception and unchecked exception 
 17 . what is the use of runnable interface in java , what is the method inside it , what is return type of run method ?
+18 . equals() vs hashCode(): equals compares values, hashCode used in hash-based structures.
 
 
 
@@ -138,6 +139,7 @@ Spring Security ---
 8. have you worked on roled based authentication and authurization?
 9. what is the oauth2?
 10. what is sso and keyclock and did you get chance to work on it ?
+I have a valid JWT token, but the service I'm calling is down (e.g., 500, timeout, etc.) — what should I do?
 
 
 SQL / Hibernate ---
@@ -156,7 +158,9 @@ SQL / Hibernate ---
 12. How you do mapping ?
 13. What is differnce between primary key and composite key ?
 14. Differnce between hibernate and JPA
-
+15.What is the N+1 query problem in JPA?
+Ans - Happens when you fetch a parent entity and JPA fires a query per child (inefficient).
+      Fix with @EntityGraph or fetch = FetchType.EAGER/LAZY
 
 Others ---
 ================
@@ -286,6 +290,8 @@ Atomic - Varible can be read and update in single operation ,
 
 What is class loader 
 it part of jre, we have bootstrap, system class loader 
+
+
 
 
 

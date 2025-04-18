@@ -1,7 +1,28 @@
 
-
-Design Pattern
+DESIGN PATTERN
 ------------------
+singleton = static instance of class 
+don't allow user to create default constructor 
+create a static method 
+
+class ABC {
+    // Eager initialization of the singleton instance
+    private static final ABC obj = new ABC();
+    // Private constructor to prevent instantiation
+    private ABC() {}
+    // Public method to provide access to the singleton instance
+    public static ABC getInstance() {
+        return obj;
+    }
+}
+public class Singleton {
+    public static void main(String[] args) {
+        ABC obj1 = ABC.getInstance();
+        ABC obj2 = ABC.getInstance();
+        System.out.println(obj1 == obj2); // Output: true (Same instance)
+    }
+}
+
 SINGLETON -:
 A Singleton Class is a design pattern that ensures only one instance of the class exists throughout the application. It provides a global access point to that instance
 This Singleton pattern is one of the most common design patterns in Java, especially used in logging, caching, configuration management, and database connections
@@ -9,15 +30,28 @@ This Singleton pattern is one of the most common design patterns in Java, especi
 2. Create a Static Instance Variable - Ensures a single instance is shared
 3. Provide a Public Static Method to Get the Instance  - Provides global access to the instance
 
+COLLECTION FRAMEWORK
 
-Collection Framework ===
-------------------------
-Cursor-----
-we need to retrive the object one by one 
-3 types
-Enumration - to get object from old collection object , Enumration e=v.elements(); /// Only read access
-iterator - read and remove data // read and remove 
-list iterator - bi directional / object creation = public ListIterator listIterator() //read , remove,replace , addition of new object 
+FEATURE	        LIST	               SET	              MAP
+Stores	    Ordered elements	    Unique elements	    Key-value pairs
+Duplicates	Allowed	                Not allowed	        Keys are unique
+Examples    ArrayList, LinkedList	HashSet, TreeSet	HashMap, TreeMap
+
+Difference between ArrayList and LinkedList?
+
+FEATURE	                ARRAYLIST	         LINKEDLIST
+Backed by	          Dynamic Array	        Doubly Linked List
+Insertion/Deletion	  Slower (O(n))	       Faster (O(1) at ends)
+Random Access	       Fast (O(1))	        Slow (O(n))
+
+WHEN TO USE WHICH COLLECTION?
+
+ArrayList: Fast read access, frequent random access.
+LinkedList: Frequent insert/delete at ends or middle.
+HashSet: Unique elements with no order.
+TreeSet: Sorted unique elements.
+HashMap: Key-value pairs, fast access.
+TreeMap: Sorted keys.
 
 Set -----
 --------------------------
@@ -34,11 +68,9 @@ HashSet====
 Uderlying DS Hashtable+linkedlist
 duplicate not allow and insertion order is preserve 
 
-
 SortedSet -:
 =======================
 represet group of individual object where don't want duplicate data and some sorting order must be there 
-
 
 TreeSet :-
 =========================
@@ -53,7 +85,7 @@ TreeSet t =new TreeSet(Comparator c) ; cutomized sorting order
 
 comparable ----
 ------------
-present on java.lang package / one method compareto
+present on java.lang package / one method compareto /Default Natural sorting order 
 obj1.compareto(obj2); obj1- element we are trying to insert and obj2 is the element is already inserted 
 obj1>obj2 = +ve
 obj1<obj2 =-ve
@@ -61,11 +93,10 @@ obj1==obj2 = 0
 
 Comparator --
 -------------
-present on java.util package 
+present on java.util package / Customize sorting order 
 customize sorting order /contains 2 method compare and equal , when we are implementing comparator interface must be override compare method , equal method is optional 
 
-
-Interface and Abstract class
+INTERFACE AND ABSTRACT CLASS
 
 1. When we don't know about full Implimation we go for interface / when we know partial implementation go for abstract 
 2. interface is fully abstract class because only abstract method allow / we can write both concert and abstract method 
@@ -75,7 +106,7 @@ Interface and Abstract class
 6. we can't have static block here / here we have 
 
 
-Map===========
+      MAP
 -----------------------
 
 Represent group of individual object in key value pair , both key and value both are object , key can't be duplicate , value can be duplicate 
@@ -244,7 +275,12 @@ Concorent Collection in Java
 4.Concuurent HashMap
 
 
-
+✅ 1. What are the 4 pillars of OOP?
+Answer:
+Encapsulation – Hiding internal data and exposing only necessary methods (using private variables + public getters/setters).
+Abstraction – Hiding complex implementation and showing only essential features (using interfaces/abstract classes).
+Inheritance – One class acquires properties and behavior of another (using extends).
+Polymorphism – One method can behave differently based on the context (method overloading/overriding).
 
 Q - HashMap Internal Implementation ?
 Ans - HashMap Stores key value pair in an array , each element is bucket , use hash function to determine which bucket key is use for retrive data ,if 2 key endup 
