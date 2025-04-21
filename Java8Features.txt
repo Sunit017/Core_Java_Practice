@@ -2,16 +2,17 @@
 
 Java 8 Features 
 
-1. Lambda Expression 
-2. Functional Interface 
-3.Default Method 
-4.Static Method in interface 
+1. Lambda Expression  - A Lambda Expression is a short block of code which takes in parameters and returns a value. It is used to implement functional interfaces
+2. Functional Interface :An interface with only one abstract method. Common examples: Runnable, Callable, Comparator, Function, Predicate, Consumer
+3.Default Method  : Have a body, used to add new methods without breaking existing implementation.
+4.Static Method in interface : Static methods: Belong to the interface itself.
 5. Predicate -- predefine FI
 6. Function  --predefine FI
 7.Consumer --- predefine FI
-8. :: Method Refernce & Consturctor refernce 
-9. Stream API -- to write more concise code 
-10. Date and Time API (JODA API )
+8. :: Method Refernce - simplify the lambda expression when method is already defined 
+9. Stream API -- to write more concise code // Stream API allows functional-style operations on a collection of elements, like filtering, mapping, reducing, etc.
+10. Date and Time API (JODA API ): java.time package provides immutable and thread-safe date/time classes like:LocalDate, LocalTime, LocalDateTimeZonedDateTime, Period, Duration
+11. Optional class : Optional is a container object used to avoid null pointer exceptions.
 
 
 Why we need 1.8 -
@@ -174,6 +175,10 @@ ans - stream is a sequence of object that supports various methods which can be 
 18. What is a Parallel Stream in Java?
 A Parallel Stream in Java is a feature of the Java Streams API that allows you to process elements concurrently using multiple threads, leveraging the Fork/Join framework internally. 
 It helps improve performance when working with large data collections.
+
+19. Difference between Optional.of() and Optional.ofNullable()
+Ans - optional.of - when you sure value is not null , if it null then it will throw null pointer exception
+      optional.ofNullable - used when value might be null , It will safely return an empty Optional if the value is null.
 
 
 
