@@ -104,7 +104,7 @@ INTERFACE AND ABSTRACT CLASS
 4. in interface variable can be final public static / abstract class does n't have this type of specification
 5. when we are declare a variable should intialize same time / abstract class this type specification not there 
 6. we can't have static block here / here we have 
-
+7. All methods are public by default	/ we Can have any access modifier (private, protected, etc.)
 
       MAP
 -----------------------
